@@ -14,8 +14,8 @@
     <h1 class="header">TIC TAC TOE</h1>
     <p id="ins">
       Game starts by just tap on box<br><br>First player starts as <b>PLAYER X</b> And second player starts as <b>Player O </b>
-      <br><br>
-
+    </p>  
+    <br><br>
       <div class="ui box">
         <div class="row">
       <input type = "text" id="b1" class="cell" onclick="myfunc_3(); ReadOnly">
@@ -35,7 +35,13 @@
         <input type = "text" id="b9" class="cell" onclick="myfunc_11(); ReadOnly">
       </div>
     </div>
-    </p>
+    <br><br><br>
+
+    <button id="but" onclick="myfunc_2()" class="btn">
+        RESET
+    </button>
+    <br><br>
+    <p id="print" class="result"></p>
   </div>
 </body>
 </html>
