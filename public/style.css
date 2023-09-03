@@ -19,5 +19,18 @@
 }
 
 .btn{
-  border: 2px solid ;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 75px;
+  height: 75px;
+  font-size: 50px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: grey;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover{
+  
 }
