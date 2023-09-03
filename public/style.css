@@ -32,5 +32,22 @@
 }
 
 .btn:hover{
-  
+  background-color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+
+.cell:disabled{
+  color: black;
+  cursor: no-drop;
+}
+.result{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid black;
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.result-text{
+  color: white;
+  transition: back;
 }
