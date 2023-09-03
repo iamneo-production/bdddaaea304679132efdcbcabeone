@@ -358,3 +358,45 @@ function myfunc_8(){
 
     }
 }
+
+function myfunc_9(){
+    if(flag == 1){
+        document.getElementById("b7").Value = 'X'
+        document.getElementById("b7").Value = 'true'
+        flag = 0;
+    }
+    else{
+        document.getElementById("b7").Value = 'X'
+        document.getElementById("b7").Value = 'true'
+        flag = 1;
+
+    }
+}
+
+function myfunc_10(){
+    if(flag == 1){
+        document.getElementById("b8").Value = 'X'
+        document.getElementById("b8").Value = 'true'
+        flag = 0;
+    }
+    else{
+        document.getElementById("b8").Value = 'X'
+        document.getElementById("b8").Value = 'true'
+        flag = 1;
+
+    }
+}
+
+function myfunc_11(){
+    if(flag == 1){
+        document.getElementById("b9").Value = 'X'
+        document.getElementById("b9").Value = 'true'
+        flag = 0;
+    }
+    else{
+        document.getElementById("b9").Value = 'X'
+        document.getElementById("b9").Value = 'true'
+        flag = 1;
+
+    }
+}
