@@ -21,6 +21,10 @@ function myfunc() {
     b7btn = document.getElementById("b7").Value;
     b8btn = document.getElementById("b8").Value;
     b9btn = document.getElementById("b9").Value;
-    
-    # ||
+
+    if ((b1 == 'x') || (b1 == 'X') && (b2 == 'x') || (b2 == 'X') && (b3 == 'x') || (b3 == 'X'))
+
+    document.getElementById('print')
+          .
+
 }
