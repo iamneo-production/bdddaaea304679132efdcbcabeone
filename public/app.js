@@ -252,11 +252,6 @@ function myfunc() {
            b5btn.style.color = "red";
            b6btn.style.color = "red";
        }
-       else if((b1 == 'x') || (b1 == 'o') && (b2 == 'x') || (b2 == '0') && (b3 == 'x') || (b3 == '0')) ((b4 == 'x') || (b4 == 'o') && (b5 == 'x') || (b5 == '0') && (b6 == 'x') || (b6 == '0')) ((b7 == 'x') || (b7 == '0') && (b8 == 'x') || (b8 == '0') && (b9 == 'x') || (b9 == '0')){}
-        document.getElementById('print')
-           .innerHTML = "matchtie";
-       }
-
        else {
 
         if (flag == 1){
@@ -265,8 +260,21 @@ function myfunc() {
            .innerHTML = "x turn";
         }
         else{
-
+            document.getElementById('print')
+            .innerHTML = "0 turn";
         }
        }
+}
 
+function myfunc_2() {
+    location.reload();
+    b1=b2=b3=b4=b5=b6=b7=b8=b9-'';
+}
+
+flag = 1;
+
+function myfunc_3(){
+    if(flag == 1){
+        document.getElementById("b1")
+    }
 }
