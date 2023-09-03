@@ -252,11 +252,21 @@ function myfunc() {
            b5btn.style.color = "red";
            b6btn.style.color = "red";
        }
-       else if((b1 == 'x') || (b1 == 'o') && (b2 == 'x') || (b2 == '0') && (b3 == 'x') || (b3 == '0')) ((b4 == 'x') || (b4 == 'o') && (b5 == 'x') || (b5 == '0') && (b6 == 'x') || (b6 == 'X')) ((b4 == 'x') || (b4 == 'X') && (b5 == 'x') || (b5 == 'X') && (b6 == 'x') || (b6 == 'X')){
-        
-        
+       else if((b1 == 'x') || (b1 == 'o') && (b2 == 'x') || (b2 == '0') && (b3 == 'x') || (b3 == '0')) ((b4 == 'x') || (b4 == 'o') && (b5 == 'x') || (b5 == '0') && (b6 == 'x') || (b6 == '0')) ((b7 == 'x') || (b7 == '0') && (b8 == 'x') || (b8 == '0') && (b9 == 'x') || (b9 == '0')){}
         document.getElementById('print')
-           .innerHTML = "player 0 won";
+           .innerHTML = "matchtie";
+       }
 
+       else {
+
+        if (flag == 1){
+
+            document.getElementById('print')
+           .innerHTML = "x turn";
+        }
+        else{
+
+        }
+       }
 
 }
