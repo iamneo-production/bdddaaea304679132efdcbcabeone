@@ -275,6 +275,86 @@ flag = 1;
 
 function myfunc_3(){
     if(flag == 1){
-        document.getElementById("b1")
+        document.getElementById("b1").Value = 'X'
+        document.getElementById("b1").Value = 'true'
+        flag = 0;
+    }
+    else{
+        document.getElementById("b1").Value = 'X'
+        document.getElementById("b1").Value = 'true'
+        flag = 1;
+
+    }
+}
+
+
+function myfunc_4(){
+    if(flag == 1){
+        document.getElementById("b2").Value = 'X'
+        document.getElementById("b2").Value = 'true'
+        flag = 0;
+    }
+    else{
+        document.getElementById("b2").Value = 'X'
+        document.getElementById("b2").Value = 'true'
+        flag = 1;
+
+    }
+}
+
+function myfunc_5(){
+    if(flag == 1){
+        document.getElementById("b3").Value = 'X'
+        document.getElementById("b3").Value = 'true'
+        flag = 0;
+    }
+    else{
+        document.getElementById("b3").Value = 'X'
+        document.getElementById("b3").Value = 'true'
+        flag = 1;
+
+    }
+}
+
+
+function myfunc_6(){
+    if(flag == 1){
+        document.getElementById("b4").Value = 'X'
+        document.getElementById("b4").Value = 'true'
+        flag = 0;
+    }
+    else{
+        document.getElementById("b4").Value = 'X'
+        document.getElementById("b4").Value = 'true'
+        flag = 1;
+
+    }
+}
+
+function myfunc_7(){
+    if(flag == 1){
+        document.getElementById("b5").Value = 'X'
+        document.getElementById("b5").Value = 'true'
+        flag = 0;
+    }
+    else{
+        document.getElementById("b5").Value = 'X'
+        document.getElementById("b5").Value = 'true'
+        flag = 1;
+
+    }
+}
+
+function myfunc_8(){
+    if(flag == 1){
+        document.getElementById("b6").Value = 'X'
+        document.getElementById("b6").Value = 'true'
+        flag = 0;
+    }
+    else{
+        document.getElementById("b6").Value = 'X'
+        document.getElementById("b6").Value = 'true'
+        flag = 1;
+
     }
 }
