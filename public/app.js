@@ -119,7 +119,7 @@ function myfunc() {
 
        else if((b1 == 'x') || (b1 == 'X') && (b4 == 'x') || (b4 == 'X') && (b7 == 'x') || (b7 == 'X')){
         document.getElementById('print')
-           .innerHTML = "player X won";
+           .innerHTML = "player 0 won";
        
            b4btn.disabled = true;
            b5btn.disabled = true;
@@ -134,7 +134,7 @@ function myfunc() {
        }
        else if((b1 == 'x') || (b1 == 'X') && (b4 == 'x') || (b4 == 'X') && (b7 == 'x') || (b7 == 'X')){
         document.getElementById('print')
-           .innerHTML = "player X won";
+           .innerHTML = "player 0 won";
        
            b2btn.disabled = true;
            b3btn.disabled = true;
@@ -149,7 +149,7 @@ function myfunc() {
        }
        else if((b7 == 'x') || (b7 == 'X') && (b8 == 'x') || (b8 == 'X') && (b9 == 'x') || (b9 == 'X')){
         document.getElementById('print')
-           .innerHTML = "player X won";
+           .innerHTML = "player 0 won";
        
            b1btn.disabled = true;
            b2btn.disabled = true;
@@ -164,7 +164,7 @@ function myfunc() {
        }
        else if((b3 == 'x') || (b3 == 'X') && (b6 == 'x') || (b6 == 'X') && (b9 == 'x') || (b9 == 'X')){
         document.getElementById('print')
-           .innerHTML = "player X won";
+           .innerHTML = "player 0 won";
        
            b1btn.disabled = true;
            b2btn.disabled = true;
@@ -179,7 +179,7 @@ function myfunc() {
        }
        else if((b7 == 'x') || (b7 == 'X') && (b8 == 'x') || (b8 == 'X') && (b9 == 'x') || (b9 == 'X')){
         document.getElementById('print')
-           .innerHTML = "player X won";
+           .innerHTML = "player 0 won";
        
            b1btn.disabled = true;
            b2btn.disabled = true;
@@ -194,7 +194,7 @@ function myfunc() {
        }
        else if((b1 == 'x') || (b1 == 'X') && (b5 == 'x') || (b5 == 'X') && (b9 == 'x') || (b9 == 'X')){
         document.getElementById('print')
-           .innerHTML = "player X won";
+           .innerHTML = "player 0 won";
        
            b2btn.disabled = true;
            b3btn.disabled = true;
@@ -209,7 +209,7 @@ function myfunc() {
        }
        else if((b3 == 'x') || (b3 == 'X') && (b5 == 'x') || (b5 == 'X') && (b7 == 'x') || (b7 == 'X')){
         document.getElementById('print')
-           .innerHTML = "player X won";
+           .innerHTML = "player 0 won";
        
            b1btn.disabled = true;
            b2btn.disabled = true;
@@ -224,7 +224,7 @@ function myfunc() {
        }
        else if((b2 == 'x') || (b2== 'X') && (b5 == 'x') || (b5 == 'X') && (b8 == 'x') || (b8 == 'X')){
         document.getElementById('print')
-           .innerHTML = "player X won";
+           .innerHTML = "player 0 won";
        
            b1btn.disabled = true;
            b3btn.disabled = true;
@@ -239,7 +239,7 @@ function myfunc() {
        }
        else if((b4 == 'x') || (b4 == 'X') && (b5 == 'x') || (b5 == 'X') && (b6 == 'x') || (b6 == 'X')){
         document.getElementById('print')
-           .innerHTML = "player X won";
+           .innerHTML = "player 0 won";
        
            b1btn.disabled = true;
            b2btn.disabled = true;
@@ -252,6 +252,11 @@ function myfunc() {
            b5btn.style.color = "red";
            b6btn.style.color = "red";
        }
+       else if((b1 == 'x') || (b1 == 'o') && (b2 == 'x') || (b2 == '0') && (b3 == 'x') || (b3 == '0')) ((b4 == 'x') || (b4 == 'o') && (b5 == 'x') || (b5 == '0') && (b6 == 'x') || (b6 == 'X')) ((b4 == 'x') || (b4 == 'X') && (b5 == 'x') || (b5 == 'X') && (b6 == 'x') || (b6 == 'X')){
+        
+        
+        document.getElementById('print')
+           .innerHTML = "player 0 won";
 
 
 }
